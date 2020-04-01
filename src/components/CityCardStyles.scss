@@ -1,0 +1,53 @@
+.Polaris-Card {
+margin-top:30px;
+  display: flex ;
+  flex-direction: row ;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding:30px;
+  width:500px;
+  .description_wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .description_title {
+      font-weight: bolder;
+    }
+
+    .description_card {
+      min-width:300px;
+      .description_item_group{
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        box-sizing: border-box;
+        border-bottom: 1px solid #c4cdd5;
+        padding:5px 0;
+        :first-child{
+          text-align: initial;
+        }
+        :last-child{
+          text-align: end;
+        }
+        .description_item {
+          width:50%;
+          color:gray;
+          font-size:13px;
+
+          .description_item_value{
+            color:black;
+            padding-left: 4px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .Polaris-Avatar__Image {
+    width: 102px ;
+    height: 80px ;
+
+  }
+}
